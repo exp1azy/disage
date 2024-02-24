@@ -1,0 +1,115 @@
+body {
+    background-image:url(icons/background.png);
+    background-attachment: fixed;
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.main {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    padding: 52px;
+    min-width: 1105px;
+}
+
+.delivery,
+.faq,
+.orders {
+    text-decoration: none;
+    color: #000;
+    font-size: 228%;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.delivery:hover,
+.faq:hover,
+.orders:hover {
+    color: #187bd8;
+}
+
+.header { 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.delivery {
+    margin-left: 128px;
+}
+
+.main-first-photo {
+    margin: 64px 20px 0px 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-first-especially-photo {
+    margin: 64px 20px 0px 0px;
+}
+
+.main-first-especially-lower-photo {
+    margin: 104px 20px 0px 0px;
+}
+
+.main-sec-especially-photo {
+    margin: 64px 0px 0px 20px;
+}
+
+.main-sec-photo {
+    margin: 64px 0px 0px 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-first-redone-photo {
+    margin: 0px 20px 0px 0px    
+}
+
+.main-sec-redone-photo {
+    margin: 0px 0px 0px 20px  
+}
+  
+.photo {
+    position: relative;
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
+    border-radius: 40px;
+    max-width: 100%;
+}
+
+.main-first-block,
+.main-second-block,
+.main-third-block,
+.main-fourth-block {  
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.main-block {
+    display: block;
+}
+
+p {
+    font-size: 180%;
+}
+
+.text-lower {
+    direction: rtl;
+}
+
+
